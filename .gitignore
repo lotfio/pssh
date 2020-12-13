@@ -1,0 +1,6 @@
+/vendor/
+.idea
+.cache
+keys
+composer.lock
+index.php

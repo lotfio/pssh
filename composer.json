@@ -1,0 +1,39 @@
+{
+    "name": "lotfio/pssh",
+    "description": "easier php ssh",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lotfio lakehal",
+            "email": "contact@lotfio.net"
+        }
+    ],
+
+    "require": {
+        "php": ">=7.4"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Pssh\\": "src/Pssh"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+
+    "scripts": {
+        "test": [
+            "phpunit"
+        ]
+    },
+
+    "minimum-stability": "dev"
+}
