@@ -10,7 +10,8 @@
     ],
 
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "ext-ssh2": "*"
     },
 
     "require-dev": {
@@ -35,5 +36,7 @@
         ]
     },
 
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+
+    "prefer-stable": true
 }
